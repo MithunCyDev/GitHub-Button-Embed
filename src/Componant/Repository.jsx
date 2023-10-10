@@ -26,7 +26,7 @@ const Repository = ({ username }) => {
         className="bg-pureBlack relative flex flex-col justify-center items-center w-72 h-40 py-4 px-6 gap-6 mt-8
         border border-b-green shadow-sm shadow-black rounded-md ">
           <h1 className="py-2 px-4 text-grayGreen bg-pureBlack absolute -top-6
-           border border-black rounded-lg ">GitHub Repository</h1>
+           border border-black rounded-lg ">GitHub Public Repository</h1>
           <p className="text-white text-lg text-center mt-4 h-10">{repo.name}</p>
           <button
             className="py-2 px-10 text-sm text-white 
